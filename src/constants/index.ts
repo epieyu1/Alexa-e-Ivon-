@@ -22,13 +22,13 @@ export const COLORS = [
 
 export const IMAGES = [
     "/images/Gemini_Generated_Image_7nb3jz7nb3jz7nb3.png",
-    "/images/WhatsApp Image 2026-03-07 at 17.04.23 (2).jpeg",
+    "/images/whatsapp_1.jpeg",
     "/images/Gemini_Generated_Image_8c92c8c92c8c92c8.png",
-    "/images/WhatsApp Image 2026-03-07 at 17.04.24 (4).jpeg",
+    "/images/whatsapp_2.jpeg",
     "/images/Gemini_Generated_Image_e1qnbre1qnbre1qn.png",
-    "/images/WhatsApp Image 2026-03-07 at 17.04.24 (5).jpeg",
+    "/images/whatsapp_3.jpeg",
     "/images/Gemini_Generated_Image_ftn6hxftn6hxftn6.png",
-    "/images/Gemini_Generated_Image_hb3dy1hb3dy1hb3d (1).png",
+    "/images/gemini_extra.png",
     "/images/Gemini_Generated_Image_hb3dy1hb3dy1hb3d.png"
 ];
 
