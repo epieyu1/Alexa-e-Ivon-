@@ -13,7 +13,7 @@ const Header: React.FC<HeaderProps> = ({ onClear }) => {
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-violet-400 font-bold">
                         Ivon y Alexa
                     </span>
-                    <span className="text-slate-500 text-xs font-mono mt-1">v1.6.0</span>
+                    <span className="text-slate-500 text-xs font-mono mt-1">v1.6.3</span>
                 </h1>
                 <p className="text-slate-400 text-sm font-light mt-1">
                     Un tributo a la reina de su casa y a la princesita que sigue sus pasos.
