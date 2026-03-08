@@ -120,14 +120,22 @@ export default function App() {
 
       <Finale isVisible={appState === 'finale'} onReset={clearCanvas} />
 
-      {elements.length === 0 && (
+      {appState === 'building' && (
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <div className="text-center animate-pulse">
-            <Heart className="w-12 h-12 text-pink-500/30 mx-auto mb-4" />
-            <span className="text-slate-600 text-xs font-mono tracking-widest uppercase">
-              Toca la pantalla para distribuir sus recuerdos
+          <div className="text-center animate-pulse flex flex-col items-center gap-2">
+            <Heart className="w-10 h-10 text-pink-500/20 mb-2" />
+            <span className="text-slate-600 text-[10px] font-mono tracking-[0.3em] uppercase max-w-[250px] leading-relaxed">
+              Toca {elements.length}/10 veces para distribuir sus recuerdos
             </span>
           </div>
+        </div>
+      )}
+
+      {appState === 'building' && elements.length > 0 && (
+        <div className="absolute bottom-[140px] left-0 w-full flex justify-center pointer-events-none animate-in fade-in slide-in-from-bottom-2 duration-1000">
+          <span className="text-slate-500 text-[10px] font-mono tracking-[0.2em] uppercase opacity-80 bg-black/20 backdrop-blur-sm px-4 py-1 rounded-full border border-white/5">
+            (Toca cualquier imagen para visualizarla al 100%)
+          </span>
         </div>
       )}
 
